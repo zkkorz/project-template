@@ -1,0 +1,16 @@
+server:
+  port: 33330
+spring:
+  datasource:
+    username: root
+    password: 123456789
+    url: jdbc:mysql://127.0.0.1:3306/order_db?characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      initial-size: 8
+      max-active: 30
+      min-idle: 3
+      max-wait: 30000
+      filters: config,wall,stat,slf4j
+
