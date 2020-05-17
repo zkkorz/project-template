@@ -21,7 +21,21 @@
         <spring-restdocs-mockmvc.version>2.0.4.RELEASE</spring-restdocs-mockmvc.version>
         <argLine>-Dfile.encoding=UTF-8</argLine>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <druid-spring-boot-starter.version>1.1.10</druid-spring-boot-starter.version>
+        <druid-spring-boot-starter.version>1.1.21</druid-spring-boot-starter.version>
+        <swagger.version>1.5.24</swagger.version>
+        <springfox-swagger.version>2.9.2</springfox-swagger.version>
+        <pagehelper.version>1.2.12</pagehelper.version>
+        <dubbo-start.version>2.7.4.1</dubbo-start.version>
+        <dubbo.version>2.7.4.1</dubbo.version>
+        <sentinel.version>1.7.0</sentinel.version>
+        <sentinel-cloud.version>2.1.1.RELEASE</sentinel-cloud.version>
+        <seata.version>0.8.0</seata.version>
+        <kryo-serializers.version>0.43</kryo-serializers.version>
+        <curator.version>4.2.0</curator.version>
+        <logstash-logback-encoder.version>6.2</logstash-logback-encoder.version>
+        <swagger-dubbo.version>2.0.1</swagger-dubbo.version>
+        <logback-classic.version>1.2.3</logback-classic.version>
+        <logback-core.version>1.2.3</logback-core.version>
     </properties>
 
     <build>
@@ -101,6 +115,7 @@
         <module>doc</module>
         <module>elasticsearch</module>
         <module>mysql</module>
+        <module>swagger</module>
         <module>demo</module>
     </modules>
 
