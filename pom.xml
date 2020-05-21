@@ -112,7 +112,7 @@
         <module>monitor</module>
         <module>redis</module>
         <module>message</module>
-        <module>doc</module>
+        <module>mockmvc</module>
         <module>elasticsearch</module>
         <module>mysql</module>
         <module>swagger</module>

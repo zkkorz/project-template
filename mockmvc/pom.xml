@@ -7,9 +7,9 @@
         <artifactId>modules</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>doc</artifactId>
+    <artifactId>mockmvc</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>doc</name>
+    <name>mockmvc</name>
     <packaging>jar</packaging>
 
     <dependencies>
