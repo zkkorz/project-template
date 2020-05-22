@@ -1,0 +1,10 @@
+server:
+  port: 29981
+  servlet:
+    context-path: /api
+dubbo:
+  application:
+    name: dubbodemo
+  registry:
+    address: 127.0.0.1:2181
+    default: true

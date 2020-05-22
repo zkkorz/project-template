@@ -5,7 +5,7 @@ import com.project.module.runner.RunnerApplication;
 public class DemoApplication {
 
     public static void main(String[] args) {
-        RunnerApplication.main(args);
+        RunnerApplication.main(new String[0]);
     }
 
 }

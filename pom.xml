@@ -11,31 +11,26 @@
 
     <properties>
         <jdk.version>1.8</jdk.version>
-        <lombok.version>1.18.4</lombok.version>
-        <spring.version>5.1.5.RELEASE</spring.version>
-        <spring.boot.version>2.2.1.RELEASE</spring.boot.version>
-        <spring-boot-admin.version>2.2.0</spring-boot-admin.version>
-        <mybatis-spring-boot-starter.version>2.2.0</mybatis-spring-boot-starter.version>
-        <mysql-connector-java.version>8.0.17</mysql-connector-java.version>
-        <mybatis-starter.version>2.1.1</mybatis-starter.version>
+        <lombok.version>1.18.12</lombok.version>
+        <spring.boot.version>2.3.0.RELEASE</spring.boot.version>
+        <spring-boot-admin.version>2.2.3</spring-boot-admin.version>
+        <mysql-connector-java.version>8.0.20</mysql-connector-java.version>
+        <mybatis-starter.version>2.1.2</mybatis-starter.version>
         <spring-restdocs-mockmvc.version>2.0.4.RELEASE</spring-restdocs-mockmvc.version>
         <argLine>-Dfile.encoding=UTF-8</argLine>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <druid-spring-boot-starter.version>1.1.21</druid-spring-boot-starter.version>
-        <swagger.version>1.5.24</swagger.version>
+        <druid-spring-boot-starter.version>1.1.22</druid-spring-boot-starter.version>
+        <swagger.version>1.6.1</swagger.version>
         <springfox-swagger.version>2.9.2</springfox-swagger.version>
         <pagehelper.version>1.2.12</pagehelper.version>
-        <dubbo-start.version>2.7.4.1</dubbo-start.version>
-        <dubbo.version>2.7.4.1</dubbo.version>
-        <sentinel.version>1.7.0</sentinel.version>
-        <sentinel-cloud.version>2.1.1.RELEASE</sentinel-cloud.version>
-        <seata.version>0.8.0</seata.version>
-        <kryo-serializers.version>0.43</kryo-serializers.version>
-        <curator.version>4.2.0</curator.version>
-        <logstash-logback-encoder.version>6.2</logstash-logback-encoder.version>
-        <swagger-dubbo.version>2.0.1</swagger-dubbo.version>
+        <dubbo-start.version>2.7.6</dubbo-start.version>
+        <dubbo.version>2.7.7</dubbo.version>
+        <kryo-serializers.version>0.45</kryo-serializers.version>
+        <curator.version>4.3.0</curator.version>
+        <logstash-logback-encoder.version>6.3</logstash-logback-encoder.version>
         <logback-classic.version>1.2.3</logback-classic.version>
         <logback-core.version>1.2.3</logback-core.version>
+        <hutool.version>5.3.5</hutool.version>
     </properties>
 
     <build>
@@ -116,6 +111,9 @@
         <module>elasticsearch</module>
         <module>mysql</module>
         <module>swagger</module>
+        <module>dubbodemo-api</module>
+        <module>dubbo</module>
+        <module>dubbodemo</module>
         <module>demo</module>
     </modules>
 

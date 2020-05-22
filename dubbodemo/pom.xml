@@ -7,25 +7,15 @@
         <artifactId>modules</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>demo</artifactId>
+    <artifactId>dubbodemo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo</name>
+    <name>dubbodemo</name>
     <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
             <groupId>com.project.module</groupId>
             <artifactId>runner</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.project.module</groupId>
-            <artifactId>mysql</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.project.module</groupId>
-            <artifactId>swagger</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
